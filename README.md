@@ -19,6 +19,7 @@
 	echo 'offset:' . $message->offset . 'partition' . $message->partition . "\n";
 	});
     ```
+
 - $this->topics   是你的要订阅的topic
 - $this->group_id 是你的分组名称
 - Main方法的第一个参数是用的闭包设置参数，第二个参数是获取到的消息进行处理的方法
